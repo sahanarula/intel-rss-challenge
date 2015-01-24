@@ -145,16 +145,18 @@
 				</ul>
 			</div>
 			<div class="feed-list">
-				<div class="well" ng-repeat="feed in feeds">
-					<h3><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h3>
-					<span class="label label-primary">Hacker News</span><br>
-					<span ng-bind-html="feed.content" class="btn btn-default content-link"></span>
-					<br>
-					<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-star"> </i> Star</button>
-					<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-check"> </i> Mark as unread</button>
-					<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-arrow-right"> </i> send to</button>
-					<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-share"> </i> share</button>
-					<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-heart"> </i> like</button>
+				<div ng-repeat="feeds in feedArray">
+					<div class="well" ng-repeat="feed in feeds">
+						<h3><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h3>
+						<span class="label label-primary">Hacker News</span><br>
+						<span ng-bind-html="feed.content" class="col-xs-12"></span>
+						<br>
+						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-star"> </i> Star</button>
+						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-check"> </i> Mark as unread</button>
+						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-arrow-right"> </i> send to</button>
+						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-share"> </i> share</button>
+						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-heart"> </i> like</button>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -168,33 +170,35 @@
 	</script>
 	<script type="text/javascript">
 	var app = angular.module('IntelRssReader', ['ngSanitize']);
-	app.factory('FeedService', ['$http', function ($http) { 
+    app.run(function($rootScope){
+    	$rootScope.feedUrls = [];
+    	$rootScope.feedArray = [];
+    });
+	app.factory('FeedService', ['$http', '$rootScope', function ($http, $rootScope) { 
 	    return {
 		             parseFeed: function (url) {
 			          	return $http.jsonp('http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=JSON_CALLBACK&q='+url);
 	               	 },
-	               	 parseArray: function(urlArray){
-	               	 	angular.forEach(urlArray, function(index){
-	               	 		console.log(index);
-	               	 	})
-	               	 },
 	               	 addUrl: function(url){
-
+	               	 	$rootScope.feedUrls.push(url);
 	               	 }     
                 } 
     }]); 
-    app.run(function(){
-    	$rootScope.feedUrls = [];
-    });
 	app.controller('ListController', ['$scope', '$http', 'FeedService', '$rootScope',  function ($scope, $http, Feed, $rootScope) {
-		$scope.feedUrls.push('https://news.ycombinator.com/rss');
-		$scope.feedUrls.push('https://news.ycombinator.com/rss');
-		Feed.parseArray($scope.feedUrls);
-		Feed.parseFeed('https://news.ycombinator.com/rss')
-		.then(function(res){
-			$scope.feeds = res.data.responseData.feed.entries;
-			console.log($scope.feeds);
+		Feed.addUrl('https://news.ycombinator.com/rss');
+		Feed.addUrl('https://news.google.com/?output=rss');
+
+		var parseFeed = function(url){
+			Feed.parseFeed(url)
+			.then(function(res){
+				$rootScope.feedArray.push(res.data.responseData.feed.entries);
+				console.log($scope.feeds);
+			});	
+		}
+		angular.forEach($rootScope.feedUrls, function(url){
+			parseFeed(url);
 		});
+		
 	}])
 	</script>
 </body>
