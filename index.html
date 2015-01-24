@@ -60,33 +60,73 @@
 		span.btn.btn-default a:focus{
 			text-decoration: none;
 		}
+		.modal#subscribe{
+			text-align: center;
+		}
+		span.col-xs-12.content.ng-binding {
+			padding: 20px;
+		}
+		.content img {
+			max-width: 100%;
+			height: auto;
+		}
+		#side-nav .well{
+			width: 30%;
+			position: fixed;
+		}
 	</style>
 </head>
 <body>
-	<div class="col-xs-4" id="side-nav">
+	<!-- Modal -->
+<div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Add Url</h4>
+
+      </div>
+      <div class="modal-body" ng-controller="modalController">
+      	<div class="row">
+	        <div class="col-xs-6 col-xs-offset-3">
+	        	<div class="form-group">
+	        		<input type="text" class="form-control" placeholder="Add Url Here" ng-model="newSubscription">
+	        	</div>
+	        	<div class="form-group">
+	        		<button class="btn btn-primary" ng-click="subscribe()">Subcribe</button>
+	        	</div>
+	        </div>
+    	</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<div class="col-xs-4" id="side-nav" ng-controller="navController">
 		<div class="well">
 			<div class="form-group" id="subscribe">
-				<button class="btn btn-primary">Add a subscription &nbsp;&nbsp;<i class="glyphicon glyphicon-plus-sign"> </i></button>
+				<button class="btn btn-primary"  data-toggle="modal" data-target="#subscribe">Add a subscription &nbsp;&nbsp;<i class="glyphicon glyphicon-plus-sign"> </i></button>
 			</div>
 			<div class="side-list">
 				<ul class="list-group">
-				  <li class="list-group-item">
-				    <span class="badge">14</span>
+				  <li class="list-group-item" ng-click="showHome()">
 				  	<i class="glyphicon glyphicon-home"> </i>
 				    Home
 				  </li>
 				  <li class="list-group-item">
-				    <span class="badge">14</span>
-				  	<i class="glyphicon glyphicon-th-list"> </i>
+				  	<i class="glyphicon glyphicon-th-list" ng-click="showHome()"> </i>
 				    All Items
 				  </li>
-				  <li class="list-group-item">
-				    <span class="badge">14</span>
+				  <li class="list-group-item" ng-click="showStarred()">
+				    <span class="badge">{{starredCount}}</span>
 				  	<i class="glyphicon glyphicon-star"> </i>
 				    Starred
 				  </li>
-				  <li class="list-group-item">
-				    <span class="badge">14</span>
+				  <li class="list-group-item" ng-click="showLiked()">
+				    <span class="badge">{{likedCount}}</span>
 				  	<i class="glyphicon glyphicon-heart"> </i>
 				    Liked
 				  </li>
@@ -145,17 +185,32 @@
 				</ul>
 			</div>
 			<div class="feed-list">
-				<div ng-repeat="feeds in feedArray">
-					<div class="well" ng-repeat="feed in feeds">
+				<div class="allLists" ng-hide="single">
+					<div ng-repeat="feeds in feedArray">
+						<div class="well" ng-repeat="feed in feeds" data-map="{{$parent.$index}}-{{$index}}">
+							<h3><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h3>
+							<span class="label label-primary">Hacker News</span><br>
+							<span ng-bind-html="feed.content" class="col-xs-12 content"></span>
+							<br>
+							<button class="btn btn-default btn-raised" ng-click="addToStar(feed)"> <i class="glyphicon glyphicon-star"> </i> Star</button>
+							<button class="btn btn-default btn-raised" ng-click="toggleRead(feed)"> <i class="glyphicon glyphicon-check"> </i> Mark as unread</button>
+							<button class="btn btn-default btn-raised" ng-click="sendTo(feed)"> <i class="glyphicon glyphicon-arrow-right"> </i> send to</button>
+							<button class="btn btn-default btn-raised" ng-click="share(feed)"> <i class="glyphicon glyphicon-share"> </i> share</button>
+							<button class="btn btn-default btn-raised" ng-click="toggleLike(feed)"> <i class="glyphicon glyphicon-heart"> </i> like</button>
+						</div>
+					</div>
+				</div>
+				<div class="singleList" ng-show="single">
+					<div class="well" ng-repeat="feed in singleListFeeds" data-map="{{$parent.$index}}-{{$index}}">
 						<h3><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h3>
 						<span class="label label-primary">Hacker News</span><br>
-						<span ng-bind-html="feed.content" class="col-xs-12"></span>
+						<span ng-bind-html="feed.content" class="col-xs-12 content"></span>
 						<br>
-						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-star"> </i> Star</button>
-						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-check"> </i> Mark as unread</button>
-						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-arrow-right"> </i> send to</button>
-						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-share"> </i> share</button>
-						<button class="btn btn-default btn-raised"> <i class="glyphicon glyphicon-heart"> </i> like</button>
+						<button class="btn btn-default btn-raised" ng-click="addToStar(feed)"> <i class="glyphicon glyphicon-star"> </i> Star</button>
+						<button class="btn btn-default btn-raised" ng-click="toggleRead(feed)"> <i class="glyphicon glyphicon-check"> </i> Mark as unread</button>
+						<button class="btn btn-default btn-raised" ng-click="sendTo(feed)"> <i class="glyphicon glyphicon-arrow-right"> </i> send to</button>
+						<button class="btn btn-default btn-raised" ng-click="share(feed)"> <i class="glyphicon glyphicon-share"> </i> share</button>
+						<button class="btn btn-default btn-raised" ng-click="toggleLike(feed)"> <i class="glyphicon glyphicon-heart"> </i> like</button>
 					</div>
 				</div>
 			</div>
@@ -173,32 +228,96 @@
     app.run(function($rootScope){
     	$rootScope.feedUrls = [];
     	$rootScope.feedArray = [];
+    	$rootScope.allFeeds = [];
+    	$rootScope.starredList = [];
+    	$rootScope.readList = [];
+    	$rootScope.likedList = [];
+    	$rootScope.starredCount = 0;
+    	$rootScope.likedCount = 0;
+    	$rootScope.readCount = 0;
+    	$rootScope.single = false;
+    	$rootScope.singleListFeeds = [];
     });
 	app.factory('FeedService', ['$http', '$rootScope', function ($http, $rootScope) { 
-	    return {
+	    var functions = {
 		             parseFeed: function (url) {
 			          	return $http.jsonp('http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=JSON_CALLBACK&q='+url);
 	               	 },
 	               	 addUrl: function(url){
-	               	 	$rootScope.feedUrls.push(url);
-	               	 }     
-                } 
+	               	 	var flag = false;
+	               	 	angular.forEach($rootScope.feedUrls, function(link){
+							console.log('inside vala' + link);
+							if(url == link)
+								flag = true;
+							else
+								flag = false;
+						});
+						if(!flag){
+	               	 		$rootScope.feedUrls.push(url);
+						}
+	               	 	console.log($rootScope.feedUrls);
+	               	 	functions.populateFeeds();
+	               	 	functions.allFeeds();
+	               	 },
+	               	 populateFeeds: function(){
+	               	 	var parsef = function(url){
+							functions.parseFeed(url)
+							.then(function(res){
+								$rootScope.feedArray.push(res.data.responseData.feed.entries);
+								$('#subscribe').modal('toggle');
+								console.log($rootScope.feedArray);
+							});
+						}
+						$rootScope.feedArray = [];
+						angular.forEach($rootScope.feedUrls, function(url){
+							parsef(url);
+						});
+	               	 },
+	               	 allFeeds: function(){
+	               	 	angular.forEach($rootScope.feedArray, function(array){
+	               	 		console.log(array);
+	               	 	})
+	               	 }
+	            } 
+	              
+            return functions;
     }]); 
 	app.controller('ListController', ['$scope', '$http', 'FeedService', '$rootScope',  function ($scope, $http, Feed, $rootScope) {
-		Feed.addUrl('https://news.ycombinator.com/rss');
-		Feed.addUrl('https://news.google.com/?output=rss');
-
-		var parseFeed = function(url){
-			Feed.parseFeed(url)
-			.then(function(res){
-				$rootScope.feedArray.push(res.data.responseData.feed.entries);
-				console.log($scope.feeds);
-			});	
+		$scope.addToStar = function(feed){
+			$rootScope.starredList.push(feed);
+			console.log($rootScope.starredList);
+	    	$rootScope.starredCount += 1;
 		}
-		angular.forEach($rootScope.feedUrls, function(url){
-			parseFeed(url);
-		});
-		
+		$scope.toggleRead = function(feed){
+			$rootScope.readList.push(feed);
+			console.log($rootScope.readList);
+	    	$rootScope.readCount += 1;
+		}
+		$scope.toggleLike = function(feed){
+			$rootScope.likedList.push(feed);
+			console.log($rootScope.likedList);
+	    	$rootScope.likedCount += 1;
+		}
+	}]);
+	app.controller('navController', ['$scope', '$rootScope', function($scope, $rootScope){
+		console.log($scope);
+		$scope.showLiked = function(){
+			$rootScope.singleListFeeds = $rootScope.likedList;
+			$rootScope.single = true;
+		};
+		$scope.showStarred = function(){
+			$rootScope.singleListFeeds = $rootScope.starredList;
+			$rootScope.single = true;
+		};
+		$scope.showHome = function(){
+			$rootScope.single = false;
+		}
+	}]);
+	app.controller('modalController', ['$scope', 'FeedService', function ($scope, Feed) {
+		Feed.addUrl('http://blog.hackerearth.com/feed');
+		$scope.subscribe = function(){
+			Feed.addUrl($scope.newSubscription);
+		}
 	}])
 	</script>
 </body>
