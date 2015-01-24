@@ -1,0 +1,316 @@
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+<channel>
+<title>HackerEarth Blog</title>
+<atom:link href="http://blog.hackerearth.com/feed" rel="self" type="application/rss+xml"/>
+<link>http://blog.hackerearth.com</link>
+<description>On hiring programmers, technology companies and programming</description>
+<lastBuildDate>Fri, 23 Jan 2015 10:06:03 +0000</lastBuildDate>
+<language>en-US</language>
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>1</sy:updateFrequency>
+<generator>http://wordpress.org/?v=4.1</generator>
+<item>
+<title>JavaScript meetup at HackerEarth office</title>
+<link>http://blog.hackerearth.com/2015/01/javascript-meetup-hackerearth-office.html</link>
+<comments>http://blog.hackerearth.com/2015/01/javascript-meetup-hackerearth-office.html#comments</comments>
+<pubDate>Mon, 19 Jan 2015 08:07:08 +0000</pubDate>
+<dc:creator><![CDATA[Raghu Mohan]]></dc:creator>
+<category><![CDATA[Bangalore]]></category>
+<category><![CDATA[HackerEarth]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=956</guid>
+<description><![CDATA[<p>On a thread in Quora, Mattias Petter Johansson, a JS developer at Spotify, explained why JavaScript is probably one of the most important programming languages in the world. He said &#8211; I&#8217;m extremely confident that JavaScript will be one of the top 3 most important languages to know within the next 10 years. All browsers <a class="read-more" href="http://blog.hackerearth.com/2015/01/javascript-meetup-hackerearth-office.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/javascript-meetup-hackerearth-office.html">JavaScript meetup at HackerEarth office</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p><a href="http://blog.hackerearth.com/wp-content/uploads/2015/01/Javascript-.jpeg"><img class="aligncenter wp-image-958 size-large" src="http://blog.hackerearth.com/wp-content/uploads/2015/01/Javascript--1024x576.jpeg" alt="Javascript" width="1024" height="576" /></a></p>
+<p>On a thread in Quora, Mattias Petter Johansson, a JS developer at Spotify, explained why JavaScript is probably one of the most important programming languages in the world. He said &#8211;</p>
+<p><span id="more-956"></span></p>
+<blockquote><p>I&#8217;m extremely confident that JavaScript will be one of the top 3 most important languages to know within the next 10 years.</p></blockquote>
+<ul>
+<li>
+<blockquote><p>All browsers have JavaScript interpreters built in. No other languages have this tremendous advantage, and it&#8217;s unlikely this will change soon.</p></blockquote>
+</li>
+<li>
+<blockquote><p>JavaScript is a pretty darn nice language once you get past the little annoyances. If you have a hard time swallowing the shortcomings, try CoffeeScript, it&#8217;s pretty!</p></blockquote>
+</li>
+<li>
+<blockquote><p>Functions as objects is extremely, extremely powerful. Programming JavaScript is like throwing around super-intelligent play-doh that can be re-molded mid-air.</p></blockquote>
+</li>
+<li>
+<blockquote><p>There is not one, but THREE ultra-fast JavaScript engines around (FireFox SpiderMonkey, Google V8 and Safari JavaScriptCore) and they are all fiercely competing to become faster and faster.</p></blockquote>
+</li>
+<li>
+<blockquote><p>node.js has created a tremendous amount of funky back-end frameworks for JavaScript. <span class="qlink_container"><a class="external_link" href="http://meteor.com/" target="_blank" rel="nofollow">http://meteor.com</a></span> is just insanely cool, if you haven&#8217;t tried it.</p></blockquote>
+</li>
+<li>
+<blockquote><p><span class="qlink_container"><a class="external_link" href="http://codeacademy.com/" target="_blank" rel="nofollow">http://codeacademy.com</a></span></p></blockquote>
+</li>
+<li>
+<blockquote><p><span class="qlink_container"><a class="external_link" href="http://jsfiddle.net/" target="_blank">http://jsfiddle.net</a></span></p></blockquote>
+</li>
+<li>
+<blockquote><p>There are currently four hojillion kabillion different combinations of operating systems, devices and screen sizes around, and I see no indication of this fragmentation stopping. This in combination with browsers getting more and more powerful, and bandwidth getting cheaper and more reliable, more and more applications will be built as web apps instead of native.</p></blockquote>
+</li>
+</ul>
+<p>In world where Python and Ruby are considered the most in languages, I think emphasis on learning JS isn&#8217;t as much as it can and should be.</p>
+<p>So, when the Bangalore JS team wanted to run a Meetup at the HackerEarth office, we were more than happy to help out. Do block out your calendars for their meetup on 24th Jan, at the HackerEarth office. Stay tuned for more updates from their end on these apps &#8211;</p>
+<p>on iOS: <a href="http://minsh.us2.list-manage2.com/track/click?u=9f449968d84d26a307c374654&amp;id=b3999e89d6&amp;e=fd7cf0a06d" target="_blank">http://min.sh/bjs_ios</a><br />
+on Android: <a href="http://minsh.us2.list-manage.com/track/click?u=9f449968d84d26a307c374654&amp;id=2c78e9bdca&amp;e=fd7cf0a06d" target="_blank">http://min.sh/bjs</a><br />
+on WP: <a href="http://minsh.us2.list-manage2.com/track/click?u=9f449968d84d26a307c374654&amp;id=8c98bda156&amp;e=fd7cf0a06d" target="_blank">http://min.sh/bjs_wp</a></p>
+<p>This meetup will have the awesome Manan Bharara from ThoughtWorks New Delhi, who will speak about JavaScript DevOPS &#8211; Automating everything JS.</p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/javascript-meetup-hackerearth-office.html">JavaScript meetup at HackerEarth office</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2015/01/javascript-meetup-hackerearth-office.html/feed</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>[Google Hangout] What does it take to be an Android developer today?</title>
+<link>http://blog.hackerearth.com/2015/01/google-hangout-take-android-developer-today.html</link>
+<comments>http://blog.hackerearth.com/2015/01/google-hangout-take-android-developer-today.html#comments</comments>
+<pubDate>Wed, 14 Jan 2015 09:04:03 +0000</pubDate>
+<dc:creator><![CDATA[Raghu Mohan]]></dc:creator>
+<category><![CDATA[HackerEarth]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=949</guid>
+<description><![CDATA[<p>Remember back in 2009, when the first Android mobile phones came out without bluetooth? Well, a lot has changed since then. Today, there are over a billion android devices in the market. Android has also provided a vibrant ecosystem to application developers. The Android Play Store has over a million applications which have been downloaded <a class="read-more" href="http://blog.hackerearth.com/2015/01/google-hangout-take-android-developer-today.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/google-hangout-take-android-developer-today.html">[Google Hangout] What does it take to be an Android developer today?</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p><a href="http://blog.hackerearth.com/wp-content/uploads/2015/01/AndroidLive.jpg"><img class="aligncenter wp-image-950 size-large" src="http://blog.hackerearth.com/wp-content/uploads/2015/01/AndroidLive-1024x702.jpg" alt="AndroidLive" width="1024" height="702" /></a></p>
+<p>Remember back in 2009, when the first Android mobile phones came out without bluetooth? Well, a lot has changed since then. Today, there are over a billion android devices in the market. Android has also provided a vibrant ecosystem to application developers. The Android Play Store has over a million applications which have been downloaded over 50 billion times! (As of 2013).</p>
+<p>Android is now making its way to other devices too. Forget smart watches, cars, refrigerators and washing machines are running the operating system today. Surely, being an Android developers has drastically changed from what it used to be 5 years ago.</p>
+<p><span id="more-949"></span></p>
+<p>It gives us great pleasure to invite you to our Google Hangout on being an Android developer today. We&#8217;ve assembled some of the best names in the Android ecosystem to chronicle how the Android ecosystem has evolved. This experts panel includes &#8211;</p>
+<p>Sriram V Iyer &#8211; He proclaims that he&#8217;s not an Android expert, but you be the judge of that. He&#8217;s a master programmer who has worked on too many things to keep track of. You can read about him here &#8211; <a href="http://yourstory.com/2013/08/techie-tuesdays-soham-mondal-the-story-of-a-geek-turned-entrepreneur/" target="_blank">http://yourstory.com/2013/06/ys-tv-techie-tuesdays-sriram-v-iyer-a-master-of-many-many-trades/</a></p>
+<p>Pranay Airan &#8211; An early Android developer, who currently practices his trade at Intuit. He&#8217;s also the co-organizer of one of the biggest Android meetup groups in the world. He&#8217;s also incredibly funny. Read more about him here &#8211; <a href="http://yourstory.com/2013/08/techie-tuesdays-soham-mondal-the-story-of-a-geek-turned-entrepreneur/" target="_blank">http://yourstory.com/2013/07/techie-tuesdays-pranay-airan-the-hustle-coder/</a></p>
+<p>Aman Alam &#8211; Aman is probably one of the most sought after Android developers in Bangalore. Another early bird in the Android band wagon, he is currently working on his own venture.</p>
+<p>Ravi Vyas &#8211; Ravi is a talented engineer, who turned over to the dark side (read management). Having worked with the monetization part of Android at Vserv, his current role has taken him to the field of mobile marketing, at MoEngage.</p>
+<p>Soham Mondal &#8211; Soham another Android old timers, who&#8217;s current building Skyro, a really good audio recorder, which has over a 100,000 downloads on the play store. He has also worked on many high profile android projects. Read about him here &#8211; <a href="http://yourstory.com/2013/08/techie-tuesdays-soham-mondal-the-story-of-a-geek-turned-entrepreneur/" target="_blank">http://yourstory.com/2013/08/techie-tuesdays-soham-mondal-the-story-of-a-geek-turned-entrepreneur/</a></p>
+<p>Abhimanyu Dikshit &#8211; Abhimanyu is the co-founder and tech lead of BetaGlide, which is a tool that helps you analyse the battery consumption of your mobile apps. He will bring pertinent views on how bad mobile programming practices will eat up your battery.</p>
+<p>Kiran Bindhu Hemraj &#8211; Kiran is one from the elite team of Android developers, Dexetra. His code is in the apps that have been downloaded close to 10 million times and he will tell us a thing or two about scale.</p>
+<p>Join our Hangout! RSVP at this Facebook Event &#8211; <a href="https://www.facebook.com/events/985755158119363/" target="_blank">https://www.facebook.com/events/985755158119363/</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/google-hangout-take-android-developer-today.html">[Google Hangout] What does it take to be an Android developer today?</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2015/01/google-hangout-take-android-developer-today.html/feed</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>5 tech skills that will get you hired this 2015</title>
+<link>http://blog.hackerearth.com/2015/01/5-tech-skills-will-get-hired-2015.html</link>
+<comments>http://blog.hackerearth.com/2015/01/5-tech-skills-will-get-hired-2015.html#comments</comments>
+<pubDate>Thu, 08 Jan 2015 07:17:34 +0000</pubDate>
+<dc:creator><![CDATA[Raghu Mohan]]></dc:creator>
+<category><![CDATA[HackerEarth]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=927</guid>
+<description><![CDATA[<p>LinkedIn recently launched a report of 25 hottest tech skills that got people hired in 2014 and topping the list, were Statistical Analysis and Data Mining and Middleware and integration software engineer. If you go through the list in a little more detail, you&#8217;ll find things like Business Intelligence, IC specialist, Game Development and Algorithm <a class="read-more" href="http://blog.hackerearth.com/2015/01/5-tech-skills-will-get-hired-2015.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/5-tech-skills-will-get-hired-2015.html">5 tech skills that will get you hired this 2015</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p><a href="http://blog.hackerearth.com/wp-content/uploads/2015/01/5_must_skills_main.png"><img class="aligncenter size-full wp-image-940" src="http://blog.hackerearth.com/wp-content/uploads/2015/01/5_must_skills_main.png" alt="5_must_skills_main" width="568" height="237" /></a></p>
+<p>LinkedIn recently launched a report of <a href="http://blog.linkedin.com/2014/12/17/the-25-hottest-skills-that-got-people-hired-in-2014/" target="_blank">25 hottest tech skills</a> that got people hired in 2014 and topping the list, were Statistical Analysis and Data Mining and Middleware and integration software engineer. If you go through the list in a little more detail, you&#8217;ll find things like Business Intelligence, IC specialist, Game Development and Algorithm Design.</p>
+<p><span id="more-927"></span></p>
+<p><strong>Data Science is Sexy</strong></p>
+<p>Statistical analysis and data mining, aka data sciences, has been long touted the sexiest job out there for a few years now. It&#8217;s quite easy to fathom why &#8211; the breed of talent is a convergence of statisticians, programmer and business expert, which is till date, a rarity. And with the advent of many more large internet companies, the need for them has just gone up. Data in general has just increase many fold in the past few years and it is hard to think of a profession that doesn&#8217;t need data scientists.</p>
+<p><strong>Internet of things is rearing its head up</strong></p>
+<p>Not very far from the top on the LinkedIn report, we&#8217;re seeing things Middleware and integration software engineers. This could be because of the advent of the wearables and the internet of things. More day to day devices are getting more powerful in a computational context and are more connected. This means building more and different middleware, as these devices don&#8217;t interact like conventional computers or phones.</p>
+<p><strong>Simpler languages FTW</strong></p>
+<p>Sitting pretty at number 10 is Perl/Python/Ruby. Python and Ruby have really freed the minds of programmers and has put the focus back on the business logic of the programs they write. Perl, despite being old, still has a lot of applications in today&#8217;s computing world. For example, Perl is still preferred for basic data mining and is widely used by security engineers (which is 4th on the report). Furthermore, a lot of legacy systems are still in use today, which require Perl programmers.</p>
+<p><strong>Machine learning is getting a lot of love </strong></p>
+<p>Another interesting skill was Algorithm design, which was placed at Number 9, could be an outcome of the machine learning revolution. Like data sciences, machine learning has seen quite an upsurge in the recent past. Most software giants have machine learning as one of their prime focuses for 2015.</p>
+<p><strong>Mobile engineers are here to stay</strong></p>
+<p>Mobile engineers are still in demand. We&#8217;re close to a decade of main stream consume mobility, and the requirement for mobile engineers is only going up. 3 billion devices in the world only means more applications, which only means more engineers. And with the advent of internet of things, smartphones are going to play a pivotal role. It&#8217;s a really good time to be a mobile engineer.</p>
+<p><strong>It&#8217;s a good time to be a specialist </strong></p>
+<p>Probably the most general tech skill on that list is Java Development or Perl/Python/Ruby. One could attribute a lot of this to the growing demand of Android Engineers, which is under the purview of mobile engineers. Almost every other skill is that of a specialist, many of them, very specific. If you&#8217;re a techie, and if the trends of 2014 is anything to go by, it is a really good time to be a specialist.</p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/5-tech-skills-will-get-hired-2015.html">5 tech skills that will get you hired this 2015</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2015/01/5-tech-skills-will-get-hired-2015.html/feed</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>HackerEarth Sprint – The most comprehensive Hackathon management tool</title>
+<link>http://blog.hackerearth.com/2015/01/introducing-hackerearth-sprint-worlds-first-hackathon-management-tool.html</link>
+<comments>http://blog.hackerearth.com/2015/01/introducing-hackerearth-sprint-worlds-first-hackathon-management-tool.html#comments</comments>
+<pubDate>Thu, 08 Jan 2015 04:46:59 +0000</pubDate>
+<dc:creator><![CDATA[Raghu Mohan]]></dc:creator>
+<category><![CDATA[HackerEarth]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=929</guid>
+<description><![CDATA[<p>&#160; Hackathons, from it&#8217;s humble beginnings in small companies and college common rooms, have meteorically risen to prominence over the last decade. Never before has there been a way to bring a fragmented set of developers to build products in a short period of time. HackerEarth in its continued effort to provide more things to do <a class="read-more" href="http://blog.hackerearth.com/2015/01/introducing-hackerearth-sprint-worlds-first-hackathon-management-tool.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/introducing-hackerearth-sprint-worlds-first-hackathon-management-tool.html">HackerEarth Sprint &#8211; The most comprehensive Hackathon management tool</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p>&nbsp;</p>
+<p><a href="http://blog.hackerearth.com/wp-content/uploads/2015/01/cover.jpg"><img class="aligncenter size-full wp-image-946" src="http://blog.hackerearth.com/wp-content/uploads/2015/01/cover.jpg" alt="cover" width="600" height="300" /></a></p>
+<p>Hackathons, from it&#8217;s humble beginnings in small companies and college common rooms, have meteorically risen to prominence over the last decade. Never before has there been a way to bring a fragmented set of developers to build products in a short period of time. HackerEarth in its continued effort to provide more things to do for its growing developer community has launched a tool to manage and conduct Hackathons in an online and scalable manner.</p>
+<p>With this tool, we aim to conduct a variety of Hackathons and enable our global community of developers to participate in Hackathons in their areas of interests.</p>
+<p><span id="more-929"></span></p>
+<p>HackerEarth Sprint is first of its kind Hackathon management tool. It&#8217;s designed for conducting hackathons with minimum effort and time. The product is designed to automate most of the things involved in conducting such sprints. It &#8211; allows participants to create teams, provides an online collaborative development to them, allows them to showcase their products/submissions, enables the admins to track progress of the teams, has a feature to facilitate peer review among other teams or do voting of submissions from general public, provides an interface to the judges to evaluate submissions and see the demo online and finally creates a leaderboard for all the submissions that gets updated in real time and can be seen by anyone. HackerEarth Sprint also has integration with platforms like  Github, Heroku, AWS etc. providing developers, tools for easy code hosting and deployment.</p>
+<p>Apart from providing tools to manage and conduct the hackathons, it provides a larger value proposition to organizers by enabling them to reach out to our rapidly growing global community of developers.Most importantly the tool makes hackathons more scalable as they can be conducted online, with participation from anywhere around the globe.</p>
+<p><strong>Ravi Gururaj, Chairman, NASSCOM Product &amp; Executive Council</strong>, said, “Hackathons are now a crtical element at all technology companies to enable community outreach, talent recruiting, ideation &amp; internal team development exercises and platform/API evangelization. The best hackmasters run great events by employing a range of robust web tools, manage the process with agility and flexibility, communicating with participants in real time with rich info feeds, hot wiring everyone up to social media, delivering frictionless devops, ensuring high levels of fun, engagement and participation. HackerEarth&#8217;s new offering captures all of these key ingredients into a simple yet powerful cloud based platform which ensures all hackmasters can deliver world class hackathons experiences.”</p>
+<p>In the past, we have conducted many internal Hackathons for Wipro. In his experience with us, <strong>G S Nathan, GM &#8211; Open Innovation, CTO Office, Wipro Ltd</strong>, said, “We partnered with HackerEarth to conduct an internal coding event at Wipro, earlier this year. Titled Wipro Code Storm, the week-long initiative saw participating Wipro employees navigate their way through eight diverse challenges, each set at different levels of complexity. 4000 employees from across 22 countries participated in the event. HackerEarth provides a very useful solution which makes the task of conducting such codeathons very simple and allows us to scale it across thousands of users.”</p>
+<p>In the coming year, there are going to be a lot of Hackathons that will be run using HackerEarth Sprint, starting with the <em><strong><a href="http://www.hackerearth.com/aadhaar-hackathon/?utm_source=blog&amp;utm_medium=link&amp;utm_campaign=content-marketing" target="_blank">Aadhaar Hackathon.</a></strong></em></p>
+<p>If you would like to conduct your own Hackathon, please write to us contact@hackerearth.com</p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/introducing-hackerearth-sprint-worlds-first-hackathon-management-tool.html">HackerEarth Sprint &#8211; The most comprehensive Hackathon management tool</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2015/01/introducing-hackerearth-sprint-worlds-first-hackathon-management-tool.html/feed</wfw:commentRss>
+<slash:comments>1</slash:comments>
+</item>
+<item>
+<title>December on HackerEarth</title>
+<link>http://blog.hackerearth.com/2015/01/december-hackerearth.html</link>
+<comments>http://blog.hackerearth.com/2015/01/december-hackerearth.html#comments</comments>
+<pubDate>Mon, 05 Jan 2015 13:08:59 +0000</pubDate>
+<dc:creator><![CDATA[Raghu Mohan]]></dc:creator>
+<category><![CDATA[HackerEarth]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=914</guid>
+<description><![CDATA[<p>You would think that holiday season would mean a slow month on HackerEarth. Not even close! December on HackerEarth was just as busy as any other month! We had a total of 11 challenges, with a total of 6 hiring challenges, 4 non hiring challenges and 1 coding marathon (our first ever). All of these <a class="read-more" href="http://blog.hackerearth.com/2015/01/december-hackerearth.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/december-hackerearth.html">December on HackerEarth</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p><a href="http://blog.hackerearth.com/wp-content/uploads/2015/01/December-.jpg"><img class="aligncenter size-full wp-image-921" src="http://blog.hackerearth.com/wp-content/uploads/2015/01/December-.jpg" alt="December" width="640" height="427" /></a></p>
+<p>You would think that holiday season would mean a slow month on HackerEarth. Not even close! December on HackerEarth was just as busy as any other month! We had a total of 11 challenges, with a total of 6 hiring challenges, 4 non hiring challenges and 1 coding marathon (our first ever). All of these Hackathons put together attracted over 20,000 developers from all around the world. Here&#8217;s a brief breakup of everything that happened on HackerEarth this December.</p>
+<p><span id="more-914"></span></p>
+<h3><strong>Monthly coding challenges</strong></h3>
+<p>December marked the last regular Easy challenge, Clash and Monthly challenge of 2014. Over the past months, our international participation has significantly gone up, and that showed in our regular monthly challenges. The winners for this month were &#8211;</p>
+<p><a href="http://www.hackerearth.com/users/biltharesatyendra/" target="_blank">Satyendra Bilthare</a> &#8211; December Easy challenge</p>
+<p><a href="http://www.hackerearth.com/users/vicissi/" target="_blank">Uwi Tenpen</a> &#8211; December Clash</p>
+<p><a href="http://www.hackerearth.com/users/bohdan/" target="_blank">Bohdan Pryshchenko</a> &#8211; Remember December</p>
+<p>These guys won some cool prizes and HackerEarth Swags.</p>
+<h3><strong>Hiring Challenges </strong></h3>
+<p>It was a busy month on the hiring front at HackerEarth. A total of 6 hiring challenges attracted over 9000 programmers. Practo, SysCloud, Druva, Cricbuzz and Kyazoonga ran hiring challenges on HackerEarth. Some candidates have already been hired by these companies and many more are in the pipeline. Stay tuned for more from this.</p>
+<h3><strong>International challenge </strong></h3>
+<p>This month&#8217;s international challenge was in the home of Samba, Brasil. The turnout was incredible and we were very impressed with the turnout in Brasil. Read the complete review of the Brasil National Coding Challenge here &#8211; <a href="http://blog.hackerearth.com/2014/12/obrigados-brasil-look-back-brasil-national-programming-challenge.html" target="_blank">http://blog.hackerearth.com/2014/12/obrigados-brasil-look-back-brasil-national-programming-challenge.html</a></p>
+<p>While <a href="http://www.hackerearth.com/users/anta/" target="_blank">Anta</a> from Japan was the overall winner of the challenge, <a href="http://www.hackerearth.com/users/fernando.fonseca.18847/" target="_blank">Fernando Fonseca</a> took away the prizes, being the top Brasillian coder!</p>
+<h3>Coding Marathon</h3>
+<p>On the occasion of Christmas, we ran a coding marathon. With less than 4 hours notice to the programming community, we were very surprised to see over 1775 programmers taking part in the challenge. You can read the complete report of the Christmas Coding Marathon here &#8211; <a href="http://blog.hackerearth.com/2014/12/whole-world-participated-christmas-coding-marathon.html" target="_blank">http://blog.hackerearth.com/2014/12/whole-world-participated-christmas-coding-marathon.html</a></p>
+<p>India&#8217;s <a href="http://www.hackerearth.com/users/divanshugarg/" target="_blank">Divyanshu Garg</a> ousted Japan&#8217;s <a href="http://www.hackerearth.com/users/rantd/" target="_blank">rantd</a>, who finished a mere two hours after him.</p>
+<h3><strong>Product</strong></h3>
+<p>We also launched a very special product on HackerEarth. <a href="http://hackerearth.com/notes" target="_blank">HackerEarth Notes</a> is an exclusive publishing platform for tech content. We&#8217;ve got some amazing writers writing from all around the world on Notes. There are a total of 40 notes. Write access is currently restricted so if you have an awesome note to share, write to vivek@hackerearth.com or santosh@hackerearth.com.</p>
+<p>You can read all about HackerEarth Notes here &#8211; http://blog.hackerearth.com/2014/12/introducing-hackerearth-notes-best-tech-content.html</p>
+<p>And that&#8217;s a wrap! Happy new year everyone, and stay tuned. January is going to be epic on HackerEarth.</p>
+<p><a href="http://www.hackerearth.com/pledge-2015/" target="_blank"><strong><em>Also, have you pledged yet? </em></strong></a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/december-hackerearth.html">December on HackerEarth</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2015/01/december-hackerearth.html/feed</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Pledge to be a better programmer #iPledge</title>
+<link>http://blog.hackerearth.com/2015/01/pledge-better-programmer-ipledge.html</link>
+<comments>http://blog.hackerearth.com/2015/01/pledge-better-programmer-ipledge.html#comments</comments>
+<pubDate>Fri, 02 Jan 2015 11:36:06 +0000</pubDate>
+<dc:creator><![CDATA[Raghu Mohan]]></dc:creator>
+<category><![CDATA[HackerEarth]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=916</guid>
+<description><![CDATA[<p>In the age of the computer, it is fairly easy to become a programmer. The learning resources are abundant and programming languages have become simpler over the years. Several hundreds and thousands of college goers are graduating as computer scientists or IT specialists. But that&#8217;s just the start. As more people take up a discipline, <a class="read-more" href="http://blog.hackerearth.com/2015/01/pledge-better-programmer-ipledge.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/pledge-better-programmer-ipledge.html">Pledge to be a better programmer #iPledge</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p><a href="http://blog.hackerearth.com/wp-content/uploads/2015/01/Pledge-.jpg"><img class="aligncenter wp-image-917 size-large" src="http://blog.hackerearth.com/wp-content/uploads/2015/01/Pledge--1024x538.jpg" alt="Pledge" width="1024" height="538" /></a></p>
+<p>In the age of the computer, it is fairly easy to become a programmer. The learning resources are abundant and programming languages have become simpler over the years. Several hundreds and thousands of college goers are graduating as computer scientists or IT specialists.</p>
+<p>But that&#8217;s just the start. As more people take up a discipline, the strive for excellence becomes more relevant. As with any field, great programmers are rare. And becoming great at programming isn&#8217;t rocket science. As with anything else, programming needs time, persistence and effort to master.</p>
+<p>And in a programming context, getting from &#8220;I know how to code&#8221; to &#8220;I write good code&#8221; would roughly 52 hours.</p>
+<p><span id="more-916"></span></p>
+<p>Put that in perspective; one hour a week, for one year, and you&#8217;re on your way to being a better programmer. Everyone should do this, and so the <a href="http://www.hackerearth.com/pledge-2015/" target="_blank"><strong>HackerEarth Pledge</strong></a>.</p>
+<p>This 2015, pledge to be a better programmer. In a few days&#8217; time, you&#8217;re going to get 52 hours worth tracks of problems to solve, concepts to learn and apply. As you work through these tracks, you will slowly realise your coding getting better and better. At the end of 52 hours, and if you&#8217;re honest about it, whether you take a little over two days, or a whole year, you will be a better programmer.</p>
+<p><strong><a href="http://www.hackerearth.com/pledge-2015/" target="_blank">Pledge now to be a better programmer</a></strong></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2015/01/pledge-better-programmer-ipledge.html">Pledge to be a better programmer #iPledge</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2015/01/pledge-better-programmer-ipledge.html/feed</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>The whole world participated in the christmas coding marathon</title>
+<link>http://blog.hackerearth.com/2014/12/whole-world-participated-christmas-coding-marathon.html</link>
+<comments>http://blog.hackerearth.com/2014/12/whole-world-participated-christmas-coding-marathon.html#comments</comments>
+<pubDate>Mon, 29 Dec 2014 09:03:26 +0000</pubDate>
+<dc:creator><![CDATA[Raghu Mohan]]></dc:creator>
+<category><![CDATA[HackerEarth]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=907</guid>
+<description><![CDATA[<p>Yup. This was a flash challenge. We had exactly 4 hours to let everyone know of this challenge, and surprise surprise, there were over 1700 developers. And from almost every part of the world! Check this out &#8211; &#160; &#160; &#160; It gets even better when you see that the top 10 winners were from <a class="read-more" href="http://blog.hackerearth.com/2014/12/whole-world-participated-christmas-coding-marathon.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2014/12/whole-world-participated-christmas-coding-marathon.html">The whole world participated in the christmas coding marathon</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p>Yup. This was a flash challenge. We had exactly 4 hours to let everyone know of this challenge, and surprise surprise, there were over 1700 developers. And from almost every part of the world! Check this out &#8211;</p>
+<p>&nbsp;</p>
+<p><a href="http://blog.hackerearth.com/wp-content/uploads/2014/12/Maps_data_CCM_.jpg"><img class="aligncenter size-full wp-image-909" src="http://blog.hackerearth.com/wp-content/uploads/2014/12/Maps_data_CCM_.jpg" alt="Maps_data_CCM_" width="600" height="300" /></a></p>
+<p>&nbsp;</p>
+<p><span id="more-907"></span></p>
+<p>&nbsp;</p>
+<p>It gets even better when you see that the top 10 winners were from all around the world. Just look at the top 10 winners &#8211;</p>
+<p><a href="http://blog.hackerearth.com/wp-content/uploads/2014/12/CCM_leaderboard_.jpg"><img class="aligncenter  wp-image-911" src="http://blog.hackerearth.com/wp-content/uploads/2014/12/CCM_leaderboard_-1024x656.jpg" alt="CCM_leaderboard_" width="628" height="402" /></a></p>
+<p>&nbsp;</p>
+<p>Truly, it was quite a festive affair at the Christmas coding challenge. But make no mistake, these developers fought tooth and nail to get to the top. India&#8217;s Divyanshu Garg ousted Japanese Rantd by a little over an hour. A commendable 23 people got a perfect score of 600, and the winners were decided on the basis of the time taken to get there. You can see the entire leaderboard <a href="http://www.hackerearth.com/christmas-coding-marathon/hof/page/1/" target="_blank">here</a>.</p>
+<p>Congratulations <a href="http://www.hackerearth.com/users/divanshugarg/" target="_blank">Divyanshu Garg</a>! You win an iPod Shuffle!</p>
+<p>The top 10 winners will also get HackerEarth swags!</p>
+<p>Stay tuned for more from HackerEarth!</p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2014/12/whole-world-participated-christmas-coding-marathon.html">The whole world participated in the christmas coding marathon</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2014/12/whole-world-participated-christmas-coding-marathon.html/feed</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Christmas coding marathon</title>
+<link>http://blog.hackerearth.com/2014/12/christmas-coding-marathon.html</link>
+<comments>http://blog.hackerearth.com/2014/12/christmas-coding-marathon.html#comments</comments>
+<pubDate>Tue, 23 Dec 2014 10:26:05 +0000</pubDate>
+<dc:creator><![CDATA[Raghu Mohan]]></dc:creator>
+<category><![CDATA[HackerEarth]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=890</guid>
+<description><![CDATA[<p>It&#8217;s Christmas here at HackerEarth and the Developer Santa wants to know whether you&#8217;ve been a good programmer this year. The Christmas Coding Marathon is your chance to show him how it&#8217;s done and you will have 53 hours to prove your mettle. At 6 PM on the 23rd of December 2014, two questions will be made live &#8211; these <a class="read-more" href="http://blog.hackerearth.com/2014/12/christmas-coding-marathon.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2014/12/christmas-coding-marathon.html">Christmas coding marathon</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p style="text-align: center;"><a href="http://blog.hackerearth.com/wp-content/uploads/2014/12/CCM.png"><img class="aligncenter  wp-image-891" alt="CCM" src="http://blog.hackerearth.com/wp-content/uploads/2014/12/CCM.png" width="680" height="252" /></a></p>
+<p><span style="line-height: 1.5em;">It&#8217;s Christmas here at HackerEarth and the Developer Santa wants to know whether you&#8217;ve been a good programmer this year. The </span><a style="line-height: 1.5em;" href="http://www.hackerearth.com/christmas-coding-marathon/" target="_blank">Christmas Coding Marathon</a><span style="line-height: 1.5em;"> is your chance to show him how it&#8217;s done and you will have 53 hours to prove your mettle.</span></p>
+<p><span id="more-890"></span></p>
+<p>At 6 PM on the 23rd of December 2014, two questions will be made live &#8211; these will be the easy ones. So while you solve them, gear yourself up for the next two which would be a little bit tougher and would be made available to you 24 hours later at 6 PM on the eve of Christmas (24th of December, 2014). Another 24 hours later (at 6PM on 25th of December 2014) Santa will reveal the last two problems of the marathon. These will be the toughest ones and to keep you on your toes, he will give you only 5 hours to solve them.</p>
+<div></div>
+<p>The Christmas Coding Marathon ends at 11 PM on the 25th of December and the winner gets a iPod shuffle. All top 10 winners get HackerEarth T-shirts. So don&#8217;t hold your horses any more. Ready? Set? Go!</p>
+<div></div>
+<p>Developer Santa</p>
+<p>Register here: <a href="http://www.hackerearth.com/christmas-coding-marathon/" target="_blank">http://www.hackerearth.com/christmas-coding-marathon/</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2014/12/christmas-coding-marathon.html">Christmas coding marathon</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2014/12/christmas-coding-marathon.html/feed</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Introducing HackerEarth Notes – The best tech content</title>
+<link>http://blog.hackerearth.com/2014/12/introducing-hackerearth-notes-best-tech-content.html</link>
+<comments>http://blog.hackerearth.com/2014/12/introducing-hackerearth-notes-best-tech-content.html#comments</comments>
+<pubDate>Thu, 18 Dec 2014 07:16:48 +0000</pubDate>
+<dc:creator><![CDATA[Raghu Mohan]]></dc:creator>
+<category><![CDATA[HackerEarth]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=880</guid>
+<description><![CDATA[<p>In the last two years, HackerEarth has grown into a thriving community of developers. The thought of thousands of developers learning to code, solving programming problems, participating in challenges and getting jobs on HackerEarth never ceases to amaze us. All these products were built to aid an ecosystem of programmers and we&#8217;re over the moon <a class="read-more" href="http://blog.hackerearth.com/2014/12/introducing-hackerearth-notes-best-tech-content.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2014/12/introducing-hackerearth-notes-best-tech-content.html">Introducing HackerEarth Notes &#8211; The best tech content</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p><a href="http://blog.hackerearth.com/wp-content/uploads/2014/12/Notes3.jpg"><img class="aligncenter size-full wp-image-886" alt="Notes3" src="http://blog.hackerearth.com/wp-content/uploads/2014/12/Notes3.jpg" width="600" height="300" /></a></p>
+<p>In the last two years, HackerEarth has grown into a thriving community of developers. The thought of thousands of developers learning to code, solving programming problems, participating in challenges and getting jobs on HackerEarth never ceases to amaze us. All these products were built to aid an ecosystem of programmers and we&#8217;re over the moon about the fact that all our products are being put to good use by the community.</p>
+<p>On the same lines, we&#8217;re really happy to introduce our newest product &#8211; HackerEarth Notes. It&#8217;s a platform for you to write and read the best technical content on the internet. It&#8217;s modelled after a bulletin board, where you can browse content either by most trending or most new. Content can be upvoted and shared.  The top technologists in India and the world have been given write exclusive access to the product and in the next month, you&#8217;ll see some compelling tech content on <a href="http://www.hackerearth.com/notes/trending/" target="_blank">HackerEarth Notes</a>.</p>
+<p><span id="more-880"></span></p>
+<p>Of course, there are a few of you thinking how this is different from a subreddit on Reddit or Hacker News or Hacker Street. In the last two years, we have seen some remarkable programmers come through the ranks on HackerEarth. The knowledge they can share is amazing and Notes will be an easy to use platform and a powerful medium for them to be heard. Furthermore, the programming community of HackerEarth is diverse. Notes as it is today, has articles on design, tutorials to algorithmic problems, open source projects and many other related topics to programming. Within the umbrella of programming, the community is very diverse. Such a community deserves a platform where they can share their knowledge. Hence <a href="http://www.hackerearth.com/notes/trending/" target="_blank">HackerEarth Notes</a>.</p>
+<p>We&#8217;re also accepting content from our community, so if you&#8217;ve got great tech content, send it to vivek@hackerearth.com or santosh@hackerearth.com, and they will get back to you. There&#8217;s a tight regulation on content and we&#8217;re already flooded with requests, so if we&#8217;re a little late with getting back to you, please bear with us.</p>
+<p>And in the meanwhile, check out all the articles on <a href="http://www.hackerearth.com/notes/trending/" target="_blank">HackerEarth Notes</a>. And don&#8217;t forget to upvote and share!</p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2014/12/introducing-hackerearth-notes-best-tech-content.html">Introducing HackerEarth Notes &#8211; The best tech content</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2014/12/introducing-hackerearth-notes-best-tech-content.html/feed</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Obrigados Brasil – A look back at the Brasil National Programming Challenge</title>
+<link>http://blog.hackerearth.com/2014/12/obrigados-brasil-look-back-brasil-national-programming-challenge.html</link>
+<comments>http://blog.hackerearth.com/2014/12/obrigados-brasil-look-back-brasil-national-programming-challenge.html#comments</comments>
+<pubDate>Wed, 17 Dec 2014 09:15:19 +0000</pubDate>
+<dc:creator><![CDATA[Saiyona Ghosh]]></dc:creator>
+<category><![CDATA[Uncategorized]]></category>
+<guid isPermaLink="false">http://blog.hackerearth.com/?p=870</guid>
+<description><![CDATA[<p>We are exploring new horizons and after Vietnam our next stop was Brasil – a country that loves programming as much as living life to the fullest. With the support from URI Online Judge, we were able to successfully host our first programming challenge for Brasil over last weekend. The Brasil National Programming Challenge saw <a class="read-more" href="http://blog.hackerearth.com/2014/12/obrigados-brasil-look-back-brasil-national-programming-challenge.html">Read More</a></p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2014/12/obrigados-brasil-look-back-brasil-national-programming-challenge.html">Obrigados Brasil &#8211; A look back at the Brasil National Programming Challenge</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></description>
+<content:encoded><![CDATA[<p style="text-align: center;"><a href="http://blog.hackerearth.com/wp-content/uploads/2014/12/Brasil.jpg"><img class="aligncenter  wp-image-872" alt="Brasil" src="http://blog.hackerearth.com/wp-content/uploads/2014/12/Brasil.jpg" width="640" height="480" /></a></p>
+<p>We are exploring new horizons and after Vietnam our next stop was Brasil – a country that loves programming as much as living life to the fullest. With the support from <a href="https://www.urionlinejudge.com.br/judge/login" target="_blank">URI Online Judge</a>, we were able to successfully host our first programming challenge for Brasil over last weekend.</p>
+<p><span id="more-870"></span></p>
+<p><a title="Brasil National Programming Challenge" href="http://www.hackerearth.com/brasil-national-programming-challenge/">The Brasil National Programming Challenge</a> saw a participation of around 900 with the majority being from Brasil. Four programmers got all problems correct and scored a clean 500 out of 500 making it the highest score. <a href="http://www.hackerearth.com/users/fernando.fonseca.18847/" target="_blank">Fernando Fonseca</a> from the State of Minas Gerais won the challenge by completing it in a little over 14 and a half hour. <a href="http://www.hackerearth.com/users/arthur3/" target="_blank">Arthur Nascimento</a> and <a href="http://www.hackerearth.com/users/rto07/" target="_blank">Ricardo Oliveira</a> secured the second and third positions respectively.</p>
+<p>There were a total of 2170 code submissions with over 1670 attempts in C++. 16 programmers used more than one programming language; the highest being four languages used by Marcos Kawakami who also secured the fourth position in the challenge. Our team also built a submissions tracker that lets us know which part of Brasil, most of the contestants belonged to – refer to the snapshot below:</p>
+<p><a href="http://blog.hackerearth.com/wp-content/uploads/2014/12/screenshot-www.hackerearth.com-2014-12-15-17-25-35.png"><img class="aligncenter size-full wp-image-873" alt="screenshot-www.hackerearth.com 2014-12-15 17-25-35" src="http://blog.hackerearth.com/wp-content/uploads/2014/12/screenshot-www.hackerearth.com-2014-12-15-17-25-35.png" width="630" height="376" /></a></p>
+<p>Winners will receive their prizes by end of the fourth week of December along with HackerEarth T- Shirts to the top ten programmers.We are in the process of partnering with a few more programming clubs in Brasil and this challenge was the first of many more that are going to be held in the near future. We are also looking for enthusiastic students who love to code to join us as Campus Ambassadors for HackerEarth and spread the coding culture in the universities of Brasil. Do write to ambassadors@hackerearth.com and we would love to associate.</p>
+<p>Next stop – Philippines.</p>
+<p>The post <a rel="nofollow" href="http://blog.hackerearth.com/2014/12/obrigados-brasil-look-back-brasil-national-programming-challenge.html">Obrigados Brasil &#8211; A look back at the Brasil National Programming Challenge</a> appeared first on <a rel="nofollow" href="http://blog.hackerearth.com">HackerEarth Blog</a>.</p>
+]]></content:encoded>
+<wfw:commentRss>http://blog.hackerearth.com/2014/12/obrigados-brasil-look-back-brasil-national-programming-challenge.html/feed</wfw:commentRss>
+<slash:comments>0</slash:comments>
+</item>
+</channel>
+</rss>

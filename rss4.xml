@@ -1,0 +1,100 @@
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>McAfee Communities New Blogs Syndication Feed</title>
+<link>https://community.mcafee.com/blogs</link>
+<description>A syndication feed of newly created blogs in McAfee Communities</description>
+<pubDate>Fri, 23 Jan 2015 14:35:15 GMT</pubDate>
+<generator>Jive Engage 7.0.0.1  (http://jivesoftware.com/products/)</generator>
+<dc:date>2015-01-23T14:35:15Z</dc:date>
+<item>
+<title>Japan Corporate Support</title>
+<link>https://community.mcafee.com/community/japan/blog</link>
+<description/>
+<pubDate>Wed, 16 Mar 2011 02:00:16 GMT</pubDate>
+<guid>https://community.mcafee.com/community/japan/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2011-03-16T02:00:16Z</dc:date>
+</item>
+<item>
+<title>Web Gateway</title>
+<link>https://community.mcafee.com/community/business/email_web/webgateway/blog</link>
+<description>McAfee Web Gateway related topics, thoughts and posts</description>
+<pubDate>Mon, 06 Sep 2010 13:23:15 GMT</pubDate>
+<guid>https://community.mcafee.com/community/business/email_web/webgateway/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2010-09-06T13:23:15Z</dc:date>
+</item>
+<item>
+<title>Host Intrusion Prevention</title>
+<link>https://community.mcafee.com/community/business/system/hip/blog</link>
+<description>This forum is designed for businesses or home users running Enterprise Firewall's on a server. Please note that that while many corporate admins frequent this forum, Enterprise versions of Firewall are NOT officially supported by McAfee Technical Support here. Please be version specific if you post issues here.</description>
+<pubDate>Mon, 02 Nov 2009 22:08:44 GMT</pubDate>
+<guid>https://community.mcafee.com/community/business/system/hip/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2009-11-02T22:08:44Z</dc:date>
+</item>
+<item>
+<title>William Warren's Blog</title>
+<link>https://community.mcafee.com/people/wwarren/blog</link>
+<description/>
+<pubDate>Mon, 01 Dec 2014 22:57:38 GMT</pubDate>
+<guid>https://community.mcafee.com/people/wwarren/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2014-12-01T22:57:38Z</dc:date>
+</item>
+<item>
+<title>Support Notification Service (SNS)</title>
+<link>https://community.mcafee.com/community/business/support/sns/blog</link>
+<description/>
+<pubDate>Thu, 27 Jan 2011 22:34:59 GMT</pubDate>
+<guid>https://community.mcafee.com/community/business/support/sns/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2011-01-27T22:34:59Z</dc:date>
+</item>
+<item>
+<title>Business</title>
+<link>https://community.mcafee.com/community/business/blog</link>
+<description/>
+<pubDate>Mon, 02 Nov 2009 14:36:43 GMT</pubDate>
+<guid>https://community.mcafee.com/community/business/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2009-11-02T14:36:43Z</dc:date>
+</item>
+<item>
+<title>Service and Support</title>
+<link>https://community.mcafee.com/community/home/consumer_support_feedback/blog</link>
+<description/>
+<pubDate>Mon, 02 Nov 2009 16:16:44 GMT</pubDate>
+<guid>https://community.mcafee.com/community/home/consumer_support_feedback/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2009-11-02T16:16:44Z</dc:date>
+</item>
+<item>
+<title>Email Gateway</title>
+<link>https://community.mcafee.com/community/business/email_web/meg/blog</link>
+<description/>
+<pubDate>Mon, 14 Nov 2011 15:51:09 GMT</pubDate>
+<guid>https://community.mcafee.com/community/business/email_web/meg/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2011-11-14T15:51:09Z</dc:date>
+</item>
+<item>
+<title>Email and Web Security</title>
+<link>https://community.mcafee.com/community/business/email_web/blog</link>
+<description/>
+<pubDate>Mon, 02 Nov 2009 17:33:33 GMT</pubDate>
+<guid>https://community.mcafee.com/community/business/email_web/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2009-11-02T17:33:33Z</dc:date>
+</item>
+<item>
+<title>Tiffani A's Blog</title>
+<link>https://community.mcafee.com/people/tallen/blog</link>
+<description/>
+<pubDate>Tue, 23 Dec 2014 19:56:37 GMT</pubDate>
+<guid>https://community.mcafee.com/people/tallen/blog</guid>
+<dc:creator>noreply@community.mcafee.com</dc:creator>
+<dc:date>2014-12-23T19:56:37Z</dc:date>
+</item>
+</channel>
+</rss>
